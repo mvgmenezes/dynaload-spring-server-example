@@ -1,0 +1,21 @@
+### Criar usuário
+POST http://localhost:8080/users
+Content-Type: application/json
+Authorization: Basic dXNlcjphYTliMmNmOC02ODIzLTQzM2YtYTE5My0yZTUzMGY1Mzk3NjA=
+
+{
+  "name": "Marcus Menezes",
+  "email": "marcus@example.com"
+}
+
+### Listar usuários
+GET http://localhost:8080/users
+Authorization: Basic dXNlcjpjZGY3NDM4OC1lMThhLTRkNmItYTA1Ny0zYWIzMDk5NDM0MDk=
+
+### Buscar por ID
+GET http://localhost:8080/users/1
+Authorization: Basic dXNlcjphYTliMmNmOC02ODIzLTQzM2YtYTE5My0yZTUzMGY1Mzk3NjA=
+
+### Deletar por ID
+DELETE http://localhost:8080/users/1
+Authorization: Basic dXNlcjphYTliMmNmOC02ODIzLTQzM2YtYTE5My0yZTUzMGY1Mzk3NjA=

@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: dynaload-spring-server-example
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+
+dynaload:
+  enabled: true
+  port: 9999
+  basePackage: io.dynaload.example.spring.server
