@@ -10,7 +10,7 @@ Authorization: Basic dXNlcjphYTliMmNmOC02ODIzLTQzM2YtYTE5My0yZTUzMGY1Mzk3NjA=
 
 ### Listar usuários
 GET http://localhost:8080/users
-Authorization: Basic dXNlcjpjZGY3NDM4OC1lMThhLTRkNmItYTA1Ny0zYWIzMDk5NDM0MDk=
+Authorization: Basic dXNlcjo1ODc2Zjc3NS0zMmE5LTRjYjctODRiMi0xMmU3Njg3N2JiMDg=
 
 ### Buscar por ID
 GET http://localhost:8080/users/1
