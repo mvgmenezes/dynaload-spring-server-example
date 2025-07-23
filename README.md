@@ -4,7 +4,7 @@ This is a full Spring Boot application demonstrating how to integrate with the D
 
 ---
 
-## 🚀 Overview
+## Overview
 
 This project uses:
 
@@ -15,7 +15,7 @@ This project uses:
 
 ---
 
-## 📦 Maven Coordinates
+## Maven Coordinates
 
 Ensure you include the following dependency to use Dynaload auto-boot:
 
@@ -29,7 +29,7 @@ Ensure you include the following dependency to use Dynaload auto-boot:
 
 ---
 
-## 🧪 REST Endpoints
+## REST Endpoints
 
 These endpoints are part of the local Spring Boot API (not related to Dynaload):
 
@@ -43,7 +43,7 @@ These endpoints are part of the local Spring Boot API (not related to Dynaload):
 
 ---
 
-## 📡 Dynaload Integration
+## Dynaload Integration
 
 ### Entity Example
 
@@ -79,7 +79,7 @@ Clients will be able to invoke methods like:
 
 ---
 
-## 🔐 Security Configuration
+## Security Configuration
 
 The app is secured via basic HTTP auth:
 
@@ -97,7 +97,7 @@ public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Excepti
 
 ---
 
-## 🛠 Application Properties
+## Application Properties
 
 ```yaml
 spring:
@@ -118,7 +118,7 @@ The `dynaload` block configures the socket server and what packages it should sc
 
 ---
 
-## ▶️ How to Run
+## ▶How to Run
 
 ```bash
 ./mvnw spring-boot:run
@@ -139,7 +139,7 @@ public class DynaloadSpringServerExampleApplication {
 
 ---
 
-## 📁 Structure
+## Structure
 
 ```
 src/
@@ -155,7 +155,7 @@ src/
 
 ---
 
-## ✅ Requirements
+## Requirements
 
 - Java 21
 - Maven
@@ -163,7 +163,7 @@ src/
 
 ---
 
-## ✅ Notes
+## Notes
 
 - Dynaload server is launched automatically on application startup.
 - Any Spring bean annotated with `@DynaloadService` and `@DynaloadCallable` is eligible for remote invocation.
